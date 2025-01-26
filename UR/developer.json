@@ -1,0 +1,68 @@
+{
+  "tabs/server": "مقامی سرور",
+  "tabs/extensions": "LM رن ٹائم",
+  "loadSettings/title": "سیٹنگز لوڈ کریں",
+  "modelSettings/placeholder": "سیٹ کرنے کے لیے ماڈل منتخب کریں",
+
+  "loadedModels/noModels": "کوئی ماڈلز لوڈ نہیں ہوئے",
+
+  "serverOptions/title": "سرور آپشنز",
+  "serverOptions/configurableTitle": "کنفیگر کرنے کے قابل آپشنز",
+  "serverOptions/port/hint": "مقامی سرور کے لیے نیٹ ورک پورٹ سیٹ کریں۔ ڈیفالٹ کے طور پر، LM اسٹوڈیو پورٹ 1234 استعمال کرتا ہے۔ اگر یہ پورٹ پہلے سے استعمال ہو رہا ہو تو آپ کو اسے تبدیل کرنا پڑ سکتا ہے۔",
+  "serverOptions/port/subtitle": "سننے کے لیے پورٹ",
+  "serverOptions/autostart/title": "آٹو اسٹارٹ سرور",
+  "serverOptions/autostart/hint": "ماڈل لوڈ ہونے پر مقامی سرور کو خود بخود شروع کریں",
+  "serverOptions/port/integerWarning": "پورٹ نمبر ایک عددی قیمت ہونی چاہیے",
+  "serverOptions/port/invalidPortWarning": "پورٹ 1 اور 65535 کے درمیان ہونی چاہیے",
+  "serverOptions/cors/title": "CORS کو فعال کریں",
+  "serverOptions/cors/hint1": "CORS (کراس اوریجن ریسورس شیئرنگ) کو فعال کرنے سے آپ کی وزٹ کی جانے والی ویب سائٹس LM اسٹوڈیو سرور کو درخواستیں بھیجنے کے قابل ہو جائیں گی۔",
+  "serverOptions/cors/hint2": "CORS ویب پیج یا VS کوڈ / دیگر ایکسٹینشن سے درخواستیں بھیجنے کے وقت ضروری ہو سکتا ہے۔",
+  "serverOptions/cors/subtitle": "کراس اوریجن درخواستوں کی اجازت دیں",
+  "serverOptions/network/title": "مقامی نیٹ ورک پر سرور فراہم کریں",
+  "serverOptions/network/subtitle": "نیٹ ورک پر موجود آلات کے لیے سرور ظاہر کریں",
+  "serverOptions/network/hint1": "کیا نیٹ ورک پر دیگر آلات سے کنکشن کی اجازت ہونی چاہیے؟",
+  "serverOptions/network/hint2": "اگر یہ منتخب نہیں کیا گیا تو سرور صرف لوکل ہوسٹ پر سنے گا۔",
+  "serverOptions/verboseLogging/title": "وربز لاگنگ",
+  "serverOptions/verboseLogging/subtitle": "مقامی سرور کے لیے وربز لاگنگ کو فعال کریں",
+  "serverOptions/contentLogging/title": "پرومپٹس اور جوابات کو لاگ کریں",
+  "serverOptions/contentLogging/subtitle": "مقامی درخواست / جواب لاگنگ کی ترتیبات",
+  "serverOptions/contentLogging/hint": "کیا پرومپٹس اور / یا جوابات کو مقامی سرور لاگ فائل میں لاگ کرنا چاہیے؟",
+  "serverOptions/jitModelLoading/title": "جسٹ ان ٹائم ماڈل لوڈنگ",
+  "serverOptions/jitModelLoading/hint": "جب فعال ہو تو، اگر کسی درخواست میں ماڈل لوڈ نہیں ہوتا، تو یہ خودبخود لوڈ ہو جائے گا اور استعمال کیا جائے گا۔ اس کے علاوہ، \"/v1/models\" اینڈ پوائنٹ میں وہ ماڈلز بھی شامل ہوں گے جو ابھی تک لوڈ نہیں ہوئے ہیں۔",
+  "serverOptions/loadModel/error": "ماڈل لوڈ کرنے میں ناکامی",
+
+  "serverLogs/scrollToBottom": "نیچے جائیں",
+  "serverLogs/clearLogs": "لاگ صاف کریں ({{shortcut}})",
+  "serverLogs/openLogsFolder": "سرور لاگ فولڈر کھولیں",
+
+  "runtimeSettings/title": "رن ٹائم سیٹنگز",
+  "runtimeSettings/chooseRuntime/title": "رن ٹائم منتخب کریں",
+  "runtimeSettings/chooseRuntime/description": "ہر ماڈل فارمیٹ کے لیے رن ٹائم منتخب کریں",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "تمام رن ٹائم دکھائیں",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "ڈیفالٹ کے طور پر، LM اسٹوڈیو صرف ہر ہم آہنگ رن ٹائم کا تازہ ترین ورژن دکھاتا ہے۔ اس آپشن کو فعال کریں تاکہ تمام دستیاب رن ٹائم دیکھ سکیں۔",
+  "runtimeSettings/chooseRuntime/select/placeholder": "رن ٹائم منتخب کریں",
+
+  "runtimeOptions/uninstall": "ان انسٹال کریں",
+  "runtimeOptions/uninstallDialog/title": "کیا آپ {{runtimeName}} ان انسٹال کرنا چاہتے ہیں؟",
+  "runtimeOptions/uninstallDialog/body": "اس رن ٹائم کو ان انسٹال کرنے سے یہ سسٹم سے ہٹا دیا جائے گا۔ یہ عمل ناقابل واپسی ہے۔",
+  "runtimeOptions/uninstallDialog/body/caveats": "کچھ فائلیں LM اسٹوڈیو کو دوبارہ شروع کرنے کے بعد ہی ہٹائی جا سکتی ہیں۔",
+  "runtimeOptions/uninstallDialog/error": "رن ٹائم ان انسٹال کرنے میں ناکامی",
+  "runtimeOptions/uninstallDialog/confirm": "جاری رکھیں اور ان انسٹال کریں",
+  "runtimeOptions/uninstallDialog/cancel": "منسوخ کریں",
+  "runtimeOptions/noCompatibleRuntimes": "کوئی ہم آہنگ رن ٹائم نہیں ملا",
+  "runtimeOptions/downloadIncompatibleRuntime": "یہ رن ٹائم آپ کے کمپیوٹر کے ساتھ ہم آہنگ نہیں ہے۔ یہ زیادہ تر کام نہیں کرے گا۔",
+  "runtimeOptions/noRuntimes": "کوئی رن ٹائم نہیں ملا",
+
+  "inferenceParams/noParams": "اس ماڈل قسم کے لیے کوئی کنفیگر کرنے کے قابل انفرنس پیرامیٹر دستیاب نہیں ہیں",
+
+  "endpoints/openaiCompatRest/title": "مستعمل اینڈ پوائنٹس (OpenAI کی طرح)",
+  "endpoints/openaiCompatRest/getModels": "موجودہ لوڈ شدہ ماڈلز کی فہرست",
+  "endpoints/openaiCompatRest/postCompletions": "ٹیکسٹ مکمل کرنے کا طریقہ۔ پرومپٹ کی بنیاد پر اگلا ٹوکن پیش گوئی کریں۔ نوٹ: OpenAI اس اینڈ پوائنٹ کو 'ڈپریکیٹ' سمجھتا ہے۔",
+  "endpoints/openaiCompatRest/postChatCompletions": "چیٹ مکمل ہونے کا طریقہ۔ ماڈل کو چیٹ ہسٹری بھیجیں تاکہ اگلا اسسٹنٹ جواب پیش گوئی ہو سکے",
+  "endpoints/openaiCompatRest/postEmbeddings": "ٹیکسٹ ایمبیڈنگ۔ دیے گئے ٹیکسٹ ان پٹ کے لیے ٹیکسٹ ایمبیڈنگ تیار کریں۔ ایک سٹرنگ یا سٹرنگز کی صف لے کر چلتا ہے۔",
+
+  "model.createVirtualModelFromInstance": "سیٹنگز کو نیا ورچوئل ماڈل کے طور پر محفوظ کریں",
+  "model.createVirtualModelFromInstance/error": "سیٹنگز کو نیا ورچوئل ماڈل کے طور پر محفوظ کرنے میں ناکامی",
+
+  "apiConfigOptions/title": "API کی تشکیل"
+}

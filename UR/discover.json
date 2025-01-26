@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "مجموعے",
+  "collectionsColumn/collectionError": "مجموعے کی تفصیلات لوڈ کرنے میں خرابی، براہ کرم اوپر ریفریش کرنے کی کوشش کریں",
+  "bookmarksColumn": "بک مارکس",
+  "searchBar/placeholder": "Hugging Face پر ماڈلز تلاش کریں...",
+  "searchBar/huggingFaceError": "Hugging Face سے نتائج حاصل کرنے میں خرابی ہوئی، براہ کرم تھوڑی دیر بعد دوبارہ کوشش کریں",
+  "sortBy": "ترتیب دیں",
+  "searchSortKey.default/title": "بہترین مطابقت",
+  "searchSortKey.likes/title": "سب سے زیادہ پسندیدگیاں",
+  "searchSortKey.downloads/title": "سب سے زیادہ ڈاؤن لوڈز",
+  "searchSortKey.lastModified/title": "حالیہ اپڈیٹ",
+  "searchSortKey.createdAt/title": "حالیہ تخلیق شدہ",
+  "download.option.willFitEstimation.caveat": "ایسی دیگر وجوہات ہو سکتی ہیں جو اسے لوڈ ہونے سے روکیں، جیسے ماڈل کی ساخت، فائل کی سالمیت، یا آپ کے کمپیوٹر پر دستیاب میموری۔",
+  "download.option.willFitEstimation.fullGPUOffload/title": "مکمل GPU آفلود ممکن ہے",
+  "download.option.willFitEstimation.fullGPUOffload/description": "یہ ماڈل ممکنہ طور پر آپ کے GPU کی میموری میں مکمل طور پر فٹ ہو سکتا ہے۔ اس سے انفریسنس کی رفتار کافی بڑھ سکتی ہے۔",
+  "download.option.willFitEstimation.partialGPUOffload/title": "جزوی GPU آفلود ممکن ہے",
+  "download.option.willFitEstimation.partialGPUOffload/description": "یہ ماڈل ممکنہ طور پر آپ کے GPU کی میموری میں جزوی طور پر فٹ ہو سکتا ہے۔ اس سے اکثر انفریسنس کی رفتار کافی بڑھ سکتی ہے۔",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "ممکنہ طور پر فٹ ہو جائے گا",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "یہ ماڈل ممکنہ طور پر آپ کی مشین کی میموری میں فٹ ہو سکتا ہے۔",
+  "download.option.willFitEstimation.willNotFit/title": "یہ مشین کے لیے ممکنہ طور پر بہت بڑا ہے",
+  "download.option.willFitEstimation.willNotFit/description": "اس ماڈل فائل کو کامیابی سے استعمال کرنے کے لیے میموری کی ضروریات آپ کی مشین کے دستیاب وسائل سے زیادہ ہو سکتی ہیں۔ اس فائل کو ڈاؤن لوڈ کرنا سفارش نہیں کی جاتی۔",
+  "download.option.recommended/title": "تجویز کردہ",
+  "download.option.recommended/description": "آپ کے ہارڈویئر کی بنیاد پر، یہ آپشن تجویز کیا گیا ہے۔",
+  "download.option.downloaded/title": "ڈاؤن لوڈ شدہ",
+  "download.option.downloading/title": "ڈاؤن لوڈ ہو رہا ہے ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "فیڈ کو ریفریش کریں"
+}

@@ -1,0 +1,312 @@
+{
+  
+  "noInstanceSelected": "کوئی ماڈل کا نمونہ منتخب نہیں کیا گیا",
+  "resetToDefault": "ری سیٹ کریں",
+  "showAdvancedSettings": "پیش رفتہ ترتیبات دکھائیں",
+  "showAll": "تمام",
+  "basicSettings": "بنیادی",
+  "configSubtitle": "پری سیٹس لوڈ کریں یا محفوظ کریں اور ماڈل کے پیرامیٹرز کی اوور رائیڈز کے ساتھ تجربہ کریں",
+  "inferenceParameters/title": "پیش گوئی پیرامیٹرز",
+  "inferenceParameters/info": "پیرامیٹرز کے ساتھ تجربہ کریں جو پیش گوئی پر اثر انداز ہوتے ہیں۔",
+  "generalParameters/title": "عمومی",
+  "samplingParameters/title": "نمونہ کاری",
+  "basicTab": "بنیادی",
+  "advancedTab": "پیش رفتہ",
+  "advancedTab/title": "🧪 پیش رفتہ تشکیل",
+  "advancedTab/expandAll": "سب کچھ کھولیں",
+  "advancedTab/overridesTitle": "تشکیل اوور رائیڈز",
+  "advancedTab/noConfigsText": "آپ کے پاس کوئی غیر محفوظ شدہ تبدیلیاں نہیں ہیں - اوپر قدروں کو ایڈٹ کریں تاکہ یہاں اوور رائیڈز دیکھیں۔",
+  "loadInstanceFirst": "پیرامیٹرز کو دیکھنے کے لئے ماڈل لوڈ کریں",
+  "noListedConfigs": "کوئی تشکیل پزیر پیرامیٹرز نہیں",
+  "generationParameters/info": "پیرامیٹرز کے ساتھ تجربہ کریں جو متن کی تخلیق پر اثر انداز ہوتے ہیں۔",
+  "loadParameters/title": "پیرامیٹرز لوڈ کریں",
+  "loadParameters/description": "سیٹنگز جو اس بات کو کنٹرول کرتی ہیں کہ ماڈل کو کس طرح شروع اور میموری میں لوڈ کیا جاتا ہے۔",
+  "loadParameters/reload": "تبدیلیاں لاگو کرنے کے لئے دوبارہ لوڈ کریں",
+  "discardChanges": "تبدیلیاں رد کریں",
+  "loadModelToSeeOptions": "اختیارات دیکھنے کے لئے ماڈل لوڈ کریں",
+  "llm.prediction.systemPrompt/title": "سسٹم پرامپٹ",
+  "llm.prediction.systemPrompt/description": "اس فیلڈ کا استعمال ماڈل کو پس منظر کی ہدایات دینے کے لیے کریں، جیسے کہ قواعد کا مجموعہ، حدود، یا عمومی ضروریات۔",
+  "llm.prediction.systemPrompt/subTitle": "AI کے لیے رہنمائی",
+  "llm.prediction.temperature/title": "درجہ حرارت",
+  "llm.prediction.temperature/subTitle": "کتنی بے ترتیبی متعارف کرنی ہے۔ 0 ہر بار ایک ہی نتیجہ دے گا، جبکہ زیادہ قیمتیں تخلیقی صلاحیت اور تفاوت میں اضافہ کریں گی",
+  "llm.prediction.temperature/info": "llama.cpp مدد کی دستاویزات سے: \"مکمل توازن کے لیے ڈیفالٹ قیمت <{{dynamicValue}}> ہے، جو بے ترتیبی اور فیصلہ پسندی کے درمیان توازن فراہم کرتی ہے۔ انتہائی صورت میں، درجہ حرارت 0 ہمیشہ سب سے زیادہ امکان والے اگلے ٹوکن کو چنتا ہے، جس سے ہر دوڑ میں یکساں آؤٹ پٹ ہوتا ہے۔\"",
+  "llm.prediction.llama.sampling/title": "نمونہ کاری",
+  "llm.prediction.topKSampling/title": "ٹاپ K نمونہ کاری",
+  "llm.prediction.topKSampling/subTitle": "اگلے ٹوکن کو ٹاپ-k سب سے زیادہ ممکنہ ٹوکنز میں سے ایک تک محدود کرتا ہے۔ درجہ حرارت کی طرح کام کرتا ہے",
+  "llm.prediction.topKSampling/info": "llama.cpp مدد کی دستاویزات سے:\n\nٹاپ-k نمونہ کاری ایک متن کی تخلیق کا طریقہ ہے جو اگلے ٹوکن کو صرف ٹاپ k سب سے زیادہ ممکنہ ٹوکنز میں سے منتخب کرتا ہے جو ماڈل کی پیش گوئی کے مطابق ہیں۔\n\nیہ کم امکان والے یا غیر معقول ٹوکنز پیدا ہونے کے خطرے کو کم کرنے میں مدد کرتا ہے، لیکن اس سے آؤٹ پٹ کی متنوعیت محدود ہو سکتی ہے۔\n\nٹاپ-k کی زیادہ قیمت (مثال کے طور پر، 100) مزید ٹوکنز پر غور کرے گی اور مزید متنوع متن پیدا کرے گی، جبکہ کم قیمت (مثال کے طور پر، 10) سب سے زیادہ ممکنہ ٹوکنز پر مرکوز ہو گی اور زیادہ محتاط متن پیدا کرے گی۔\n\n• ڈیفالٹ قیمت <{{dynamicValue}}> ہے۔",
+  "llm.prediction.llama.cpuThreads/title": "سی پی یو تھریڈز",
+  "llm.prediction.llama.cpuThreads/subTitle": "پیش گوئی کے دوران استعمال کرنے کے لئے سی پی یو تھریڈز کی تعداد",
+  "llm.prediction.llama.cpuThreads/info": "حساب کتاب کے دوران استعمال کرنے والے تھریڈز کی تعداد۔ تھریڈز کی تعداد بڑھانے سے ہمیشہ بہتر کارکردگی کا تعین نہیں ہوتا۔ ڈیفالٹ قیمت <{{dynamicValue}}> ہے۔",
+  "llm.prediction.maxPredictedTokens/title": "جواب کی لمبائی محدود کریں",
+  "llm.prediction.maxPredictedTokens/subTitle": "AI کے جواب کی لمبائی کو آپشنل طور پر کیپ کریں",
+  "llm.prediction.maxPredictedTokens/info": "چیٹ بوٹ کے جواب کی زیادہ سے زیادہ لمبائی کو کنٹرول کریں۔ اس کو آن کریں تاکہ جواب کی زیادہ سے زیادہ لمبائی پر حد لگائی جا سکے، یا اس کو آف کریں تاکہ چیٹ بوٹ خود فیصلہ کرے کہ کب رکنا ہے۔",
+  "llm.prediction.maxPredictedTokens/inputLabel": "زیادہ سے زیادہ جواب کی لمبائی (ٹوکنز)",
+  "llm.prediction.maxPredictedTokens/wordEstimate": "تقریباً {{maxWords}} الفاظ",
+  "llm.prediction.repeatPenalty/title": "دہرائی کی سزا",
+  "llm.prediction.repeatPenalty/subTitle": "ایک ہی ٹوکن کو دہرانے سے کتنی حوصلہ شکنی کی جانی چاہیے",
+  "llm.prediction.repeatPenalty/info": "llama.cpp مدد کی دستاویزات سے: \"ماڈل کو بار بار اور یکسانیت والی تحریر پیدا کرنے سے روکنے میں مدد دیتی ہے۔\n\nایک زیادہ قیمت (مثال کے طور پر، 1.5) دہرانے کی سزا کو زیادہ سخت کرے گی، جبکہ کم قیمت (مثال کے طور پر، 0.9) زیادہ لچکدار ہوگی۔\" • ڈیفالٹ قیمت <{{dynamicValue}}> ہے۔",
+  "llm.prediction.minPSampling/title": "کم از کم P نمونہ کاری",
+  "llm.prediction.minPSampling/subTitle": "ایک ٹوکن کو منتخب کرنے کے لیے کم از کم ابتدائی احتمال",
+  "llm.prediction.minPSampling/info": "llama.cpp مدد کی دستاویزات سے:\n\nایک ٹوکن کے لئے کم از کم احتمال، جو سب سے زیادہ ممکنہ ٹوکن کے احتمال کے مطابق ہوتا ہے۔ یہ [0، 1] کے درمیان ہونا چاہیے۔\n\n• ڈیفالٹ قیمت <{{dynamicValue}}> ہے۔",
+  "llm.prediction.topPSampling/title": "ٹاپ P نمونہ کاری",
+  "llm.prediction.topPSampling/subTitle": "ممکنہ اگلے ٹوکنز کے لئے کم از کم مجموعی احتمال۔ درجہ حرارت کی طرح کام کرتا ہے",
+  "llm.prediction.topPSampling/info": "llama.cpp مدد کی دستاویزات سے:\n\nٹاپ-p نمونہ کاری، جسے نیوکلیئس نمونہ کاری بھی کہا جاتا ہے، ایک اور متن کی تخلیق کا طریقہ ہے جو اگلے ٹوکن کو ان ٹوکنز کے ذیلی سیٹ سے منتخب کرتا ہے جن کا مجموعی احتمال کم از کم p ہو۔\n\nیہ طریقہ تنوع اور معیار کے درمیان توازن فراہم کرتا ہے کیونکہ یہ ٹوکنز کے احتمالات اور ان ٹوکنز کی تعداد دونوں پر غور کرتا ہے جن سے نمونہ لیا جائے۔\n\nٹاپ-p کے لیے ایک زیادہ قیمت (مثال کے طور پر، 0.95) مزید متنوع متن پیدا کرے گی، جبکہ کم قیمت (مثال کے طور پر، 0.5) زیادہ توجہ مرکوز اور محتاط متن پیدا کرے گی۔ یہ (0، 1] میں ہونا چاہیے۔\n\n• ڈیفالٹ قیمت <{{dynamicValue}}> ہے۔",
+  
+  
+	"llm.prediction.stopStrings/title": "اسٹرنگز کو روکا جائے",
+
+	"llm.prediction.stopStrings/subTitle": "ایسی اسٹرنگز جو ماڈل کو مزید ٹوکن بنانے سے روکیں",
+
+	"llm.prediction.stopStrings/info": "مخصوص اسٹرنگز جو جب سامنے آئیں گی تو ماڈل کو مزید ٹوکن بنانے سے روک دیں گی",
+
+	"llm.prediction.stopStrings/placeholder": "ایک اسٹرنگ داخل کریں اور ⏎ دبائیں",
+
+	"llm.prediction.contextOverflowPolicy/title": "سیاق و سباق کی زیادتی",
+
+	"llm.prediction.contextOverflowPolicy/subTitle": "جب بات چیت اتنی بڑی ہو جائے کہ ماڈل اسے سنبھال نہ سکے تو ماڈل کو کس طرح سلوک کرنا چاہیے",
+
+	"llm.prediction.contextOverflowPolicy/info": "فیصلہ کریں کہ بات چیت جب ماڈل کی ورکنگ میموری ('سیاق و سباق') سے بڑھ جائے تو کیا کرنا چاہیے",
+
+	"llm.prediction.llama.frequencyPenalty/title": "تعدد کی سزا",
+
+	"llm.prediction.llama.presencePenalty/title": "موجودگی کی سزا",
+
+	"llm.prediction.llama.tailFreeSampling/title": "دم کے بغیر سیمپلنگ",
+
+	"llm.prediction.llama.locallyTypicalSampling/title": "مقامی طور پر مخصوص سیمپلنگ",
+
+	"llm.prediction.onnx.topKSampling/title": "اوپر کے K سیمپلنگ",
+
+	"llm.prediction.onnx.topKSampling/subTitle": "اگلے ٹوکن کو سب سے زیادہ ممکنہ K ٹوکنز میں سے ایک تک محدود کرتا ہے۔ یہ درجہ حرارت کی طرح عمل کرتا ہے",
+
+	"llm.prediction.onnx.topKSampling/info": "ONNX دستاویزات سے:\n\nسب سے زیادہ احتمال والے لغت کے ٹوکنز کی تعداد کو اوپر-k فلٹرنگ کے لیے رکھنا\n\n• یہ فلٹر ڈیفالٹ طور پر بند ہے",
+
+	"llm.prediction.onnx.repeatPenalty/title": "دہرائی کی سزا",
+
+	"llm.prediction.onnx.repeatPenalty/subTitle": "ایک ہی ٹوکن کو دہرانے سے کتنی حوصلہ شکنی کی جائے",
+
+	"llm.prediction.onnx.repeatPenalty/info": "ایک اعلیٰ قیمت ماڈل کو خود کو دہرانے سے روک دیتی ہے",
+
+	"llm.prediction.onnx.topPSampling/title": "اوپر P سیمپلنگ",
+
+	"llm.prediction.onnx.topPSampling/subTitle": "ممکنہ اگلے ٹوکنز کے لیے کم از کم مجموعی احتمال۔ یہ درجہ حرارت کی طرح عمل کرتا ہے",
+
+	"llm.prediction.onnx.topPSampling/info": "ONNX دستاویزات سے:\n\nصرف وہ سب سے زیادہ ممکنہ ٹوکنز رکھے جاتے ہیں جن کی احتمالیں ٹاپ پی یا اس سے زیادہ تک پہنچتی ہیں\n\n• یہ فلٹر ڈیفالٹ طور پر بند ہے",
+
+	"llm.prediction.seed/title": "بیج",
+
+	"llm.prediction.structured/title": "ساختی آؤٹ پٹ",
+
+	"llm.prediction.structured/info": "ساختی آؤٹ پٹ",
+
+	"llm.prediction.structured/description": "ایڈوانس: آپ ماڈل سے مخصوص آؤٹ پٹ فارمیٹ کو نافذ کرنے کے لیے ایک JSON اسکیمہ فراہم کر سکتے ہیں۔ مزید سیکھنے کے لیے [دستاویزات](https://lmstudio.ai/docs/advanced/structured-output) پڑھیں",
+
+	"llm.prediction.promptTemplate/title": "پرومپٹ ٹیمپلیٹ",
+
+	"llm.prediction.promptTemplate/subTitle": "وہ فارمیٹ جس میں چیٹ میں پیغامات ماڈل کو بھیجے جاتے ہیں۔ اس کو تبدیل کرنے سے غیر متوقع رویہ پیدا ہو سکتا ہے - اس بات کو یقینی بنائیں کہ آپ جانتے ہیں کہ آپ کیا کر رہے ہیں!",
+
+	"llm.load.contextLength/title": "سیاق و سباق کی لمبائی",
+
+	"llm.load.contextLength/subTitle": "ٹوکنز کی زیادہ سے زیادہ تعداد جو ماڈل ایک پرومپٹ میں سنبھال سکتا ہے۔ اس کو منظم کرنے کے مزید طریقے 'انفیرنس پیرا میٹرز' کے تحت دیکھیں",
+
+	"llm.load.contextLength/info": "وہ زیادہ سے زیادہ ٹوکنز کی تعداد بتاتا ہے جو ماڈل ایک وقت میں غور کر سکتا ہے، جو اس کی پروسیسنگ کے دوران سیاق و سباق کو متاثر کرتا ہے",
+
+	"llm.load.contextLength/warning": "سیاق و سباق کی لمبائی کے لیے ایک بلند قیمت مرتب کرنا میموری کے استعمال پر نمایاں اثر ڈال سکتا ہے",
+
+	"llm.load.seed/title": "بیج",
+
+	"llm.load.seed/subTitle": "ٹیکسٹ کی تخلیق میں استعمال ہونے والے رینڈم نمبر جنریٹر کے لیے بیج۔ -1 رینڈم ہے",
+
+	"llm.load.seed/info": "رینڈم بیج: نتائج کو دوبارہ پیدا کرنے کے لیے رینڈم نمبر کی تخلیق کے لیے بیج مرتب کرتا ہے",
+
+	"llm.load.llama.evalBatchSize/title": "تشخیصی بیچ سائز",
+
+	"llm.load.llama.evalBatchSize/subTitle": "ایسی ٹوکنز کی تعداد جو ایک وقت میں پروسیس کی جاتی ہیں۔ اس کو بڑھانا کارکردگی کو بڑھاتا ہے لیکن میموری کے استعمال کی قیمت پر",
+
+	"llm.load.llama.evalBatchSize/info": "تشخیص کے دوران ایک بیچ میں اکٹھے پروسیس ہونے والی مثالوں کی تعداد مرتب کرتا ہے، جو رفتار اور میموری کے استعمال کو متاثر کرتا ہے",
+
+	"llm.load.llama.ropeFrequencyBase/title": "روپی فریکوئنسی بیس",
+
+	"llm.load.llama.ropeFrequencyBase/subTitle": "روٹری پوزیشنل ایمبیڈنگز (روپی) کے لیے کسٹم بیس فریکوئنسی۔ اس کو بڑھانا ہائی سیاق و سباق کی لمبائی پر بہتر کارکردگی فراہم کر سکتا ہے",
+
+	"llm.load.llama.ropeFrequencyBase/info": "[ایڈوانس] روٹری پوزیشنل کوڈنگ کے لیے بیس فریکوئنسی کو ایڈجسٹ کرتا ہے، جو پوزیشنل معلومات کو ایمبیڈ کرنے کے طریقے کو متاثر کرتا ہے",
+
+	"llm.load.llama.ropeFrequencyScale/title": "روپی فریکوئنسی اسکیل",
+
+	"llm.load.llama.ropeFrequencyScale/subTitle": "سیاق و سباق کی لمبائی کو اس عامل کے ذریعے اسکیل کیا جاتا ہے تاکہ روپی کے ذریعے مؤثر سیاق و سباق کو بڑھایا جا سکے",
+
+	"llm.load.llama.ropeFrequencyScale/info": "[ایڈوانس] روٹری پوزیشنل کوڈنگ کے لیے فریکوئنسی کی اسکیلنگ کو ترمیم کرتا ہے تاکہ پوزیشنل کوڈنگ کی تفصیل کو کنٹرول کیا جا سکے",
+
+	"llm.load.llama.acceleration.offloadRatio/title": "GPU آف لوڈ",
+
+	"llm.load.llama.acceleration.offloadRatio/subTitle": "GPU کی تیز رفتار کے لیے GPU پر حساب کرنے کے لیے ماڈل کی الگ الگ پرتوں کی تعداد",
+
+	"llm.load.llama.acceleration.offloadRatio/info": "GPU کو آف لوڈ کرنے کے لیے پرتوں کی تعداد مرتب کرتا ہے",
+
+	"llm.load.llama.flashAttention/title": "فلیش توجہ"
+
+  
+  
+  "llm.load.llama.flashAttention/subTitle": "کچھ ماڈلز پر میموری کے استعمال اور جنریشن کا وقت کم کرتا ہے",
+  "llm.load.llama.flashAttention/info": "توجہ کے میکانزم کو تیز اور زیادہ مؤثر پروسیسنگ کے لیے تیز کرتا ہے",
+  "llm.load.numExperts/title": "ماہرین کی تعداد",
+  "llm.load.numExperts/subTitle": "ماڈل میں استعمال ہونے والے ماہرین کی تعداد",
+  "llm.load.numExperts/info": "ماڈل میں استعمال ہونے والے ماہرین کی تعداد",
+  "llm.load.llama.keepModelInMemory/title": "ماڈل کو میموری میں رکھیں",
+  "llm.load.llama.keepModelInMemory/subTitle": "ماڈل کے لیے سسٹم میموری مختص کریں، چاہے وہ GPU پر آف لوڈ ہو۔ کارکردگی کو بہتر بناتا ہے لیکن مزید سسٹم RAM کی ضرورت ہوتی ہے",
+  "llm.load.llama.keepModelInMemory/info": "ماڈل کو ڈسک پر منتقل ہونے سے روکتا ہے، اس بات کو یقینی بناتا ہے کہ تیز رسائی ہو لیکن زیادہ RAM استعمال ہوتا ہے",
+  "llm.load.llama.useFp16ForKVCache/title": "KV کیشے کے لیے FP16 استعمال کریں",
+  "llm.load.llama.useFp16ForKVCache/info": "کیشے کو آدھی درستگی (FP16) میں محفوظ کر کے میموری کے استعمال کو کم کرتا ہے",
+  "llm.load.llama.tryMmap/title": "mmap() آزمانا",
+  "llm.load.llama.tryMmap/subTitle": "ماڈل کے لوڈ ہونے کا وقت بہتر بناتا ہے۔ اس کو بند کرنے سے کارکردگی میں بہتری آ سکتی ہے جب ماڈل دستیاب سسٹم RAM سے بڑا ہو",
+  "llm.load.llama.tryMmap/info": "ماڈل کی فائلوں کو براہ راست ڈسک سے میموری میں لوڈ کریں",
+  "embedding.load.contextLength/title": "سیاق کی لمبائی",
+  "embedding.load.contextLength/subTitle": "ماڈل کے لیے ایک پرومپٹ میں زیادہ سے زیادہ ٹوکنز جو وہ توجہ دے سکتا ہے۔ مزید معلومات کے لیے \"انفرنس پیرا میٹر\" کے تحت بات چیت کے اوورفلو آپشنز دیکھیں",
+  "embedding.load.contextLength/info": "یہ وضاحت کرتا ہے کہ ماڈل ایک وقت میں کتنے ٹوکنز پر غور کر سکتا ہے، جو اس کے پروسیسنگ کے دوران اس کی یادداشت پر اثر انداز ہوتا ہے",
+  "embedding.load.llama.ropeFrequencyBase/title": "RoPE فریکوئنسی بیس",
+  "embedding.load.llama.ropeFrequencyBase/subTitle": "روٹری پوزیشنل ایمبیڈنگز (RoPE) کے لیے حسب ضرورت بیس فریکوئنسی۔ اس کو بڑھانے سے زیادہ سیاق کی لمبائی پر بہتر کارکردگی مل سکتی ہے",
+  "embedding.load.llama.ropeFrequencyBase/info": "[ایڈوانسڈ] روٹری پوزیشنل اینکوڈنگ کے لیے بیس فریکوئنسی کو ایڈجسٹ کرتا ہے، جو پوزیشنل معلومات کو ایمبیڈ کرنے کے طریقے کو متاثر کرتا ہے",
+  "embedding.load.llama.evalBatchSize/title": "تشخیص بیچ کا سائز",
+  "embedding.load.llama.evalBatchSize/subTitle": "ایک وقت میں پروسیس ہونے والے ان پٹ ٹوکنز کی تعداد۔ اس کو بڑھانے سے کارکردگی میں اضافہ ہوتا ہے لیکن میموری کا استعمال بھی بڑھتا ہے",
+  "embedding.load.llama.evalBatchSize/info": "تشخیص کے دوران ایک بیچ میں پروسیس ہونے والے ٹوکنز کی تعداد کو سیٹ کرتا ہے",
+  "embedding.load.llama.ropeFrequencyScale/title": "RoPE فریکوئنسی اسکیل",
+  "embedding.load.llama.ropeFrequencyScale/subTitle": "اسکیل کی مقدار سے سیاق کی لمبائی بڑھائی جاتی ہے تاکہ RoPE کے ذریعے مؤثر سیاق کو بڑھایا جا سکے",
+  "embedding.load.llama.ropeFrequencyScale/info": "[ایڈوانسڈ] روٹری پوزیشنل اینکوڈنگ کی فریکوئنسی کی اسکیلنگ کو ایڈجسٹ کرتا ہے تاکہ پوزیشنل اینکوڈنگ کی تفصیل کو کنٹرول کیا جا سکے",
+  "embedding.load.llama.acceleration.offloadRatio/title": "GPU آف لوڈ",
+  "embedding.load.llama.acceleration.offloadRatio/subTitle": "GPU کے لیے ماڈل کی ڈسکریٹ سطحوں کی تعداد جو GPU کی تیز تر کاری کے لیے کمپیوٹ کی جاتی ہیں",
+  "embedding.load.llama.acceleration.offloadRatio/info": "GPU پر آف لوڈ کرنے کے لیے سطحوں کی تعداد سیٹ کریں",
+  "embedding.load.llama.keepModelInMemory/title": "ماڈل کو میموری میں رکھیں",
+  "embedding.load.llama.keepModelInMemory/subTitle": "ماڈل کے لیے سسٹم میموری مختص کریں، چاہے وہ GPU پر آف لوڈ ہو۔ کارکردگی کو بہتر بناتا ہے لیکن مزید سسٹم RAM کی ضرورت ہوتی ہے",
+  "embedding.load.llama.keepModelInMemory/info": "ماڈل کو ڈسک پر منتقل ہونے سے روکتا ہے، اس بات کو یقینی بناتا ہے کہ تیز رسائی ہو لیکن زیادہ RAM استعمال ہوتا ہے",
+  "embedding.load.llama.tryMmap/title": "mmap() آزمانا",
+  "embedding.load.llama.tryMmap/subTitle": "ماڈل کے لوڈ ہونے کا وقت بہتر بناتا ہے۔ اس کو بند کرنے سے کارکردگی میں بہتری آ سکتی ہے جب ماڈل دستیاب سسٹم RAM سے بڑا ہو",
+  "embedding.load.llama.tryMmap/info": "ماڈل کی فائلوں کو براہ راست ڈسک سے میموری میں لوڈ کریں",
+  "embedding.load.seed/title": "بیج",
+  "embedding.load.seed/subTitle": "ٹیکسٹ جنریشن میں استعمال ہونے والے رینڈم نمبر جنریٹر کے لیے بیج۔ -1 رینڈم بیج ہے",
+  "embedding.load.seed/info": "رینڈم بیج: رینڈم نمبر کی جنریشن کے لیے بیج سیٹ کرتا ہے تاکہ نتائج کو دوبارہ پیدا کیا جا سکے",
+  "presetTooltip": {
+    "included/title": "پری سیٹ کی قیمتیں",
+    "included/description": "مندرجہ ذیل فیلڈز لاگو ہوں گے",
+    "included/empty": "اس سیاق میں اس پری سیٹ کی کوئی قیمت نہیں لاگو ہوتی۔",
+    "included/conflict": "آپ سے پوچھا جائے گا کہ آیا اس قیمت کو لاگو کرنا ہے",
+    "separateLoad/title": "لوڈ کے وقت کی ترتیب",
+    "separateLoad/description.1": "پری سیٹ میں لوڈ کے وقت کی ترتیب بھی شامل ہے۔ لوڈ وقت کی ترتیبات ماڈل کی سطح پر ہیں اور اس کو اثر کرنے کے لیے ماڈل کو دوبارہ لوڈ کرنا ضروری ہے۔ لاگو کرنے کے لیے",
+    "separateLoad/description.2": "پر ہولڈ کریں",
+    "separateLoad/description.3": ".",
+    "excluded/title": "لاگو نہیں ہو سکتا",
+    "excluded/description": "پری سیٹ میں شامل درج ذیل فیلڈز ہیں لیکن موجودہ سیاق میں لاگو نہیں ہوتے ہیں۔",
+    "legacy/title": "لیگیسی پری سیٹ",
+    "legacy/description": "یہ پری سیٹ ایک لیگیسی پری سیٹ ہے۔ اس میں درج ذیل فیلڈز شامل ہیں جو اب خودکار طریقے سے سنبھالے جاتے ہیں یا اب لاگو نہیں ہیں"
+  },
+  "customInputs": {
+    "string": {
+      "emptyParagraph": "<خالی>"
+    },
+    "checkboxNumeric": {
+      "off": "بند"
+    },
+    "stringArray": {
+      "empty": "<خالی>"
+    },
+    "llmPromptTemplate": {
+      "type": "قسم",
+      "types.jinja/label": "ٹیمپلیٹ (Jinja)",
+      "jinja.bosToken/label": "BOS ٹوکن",
+      "jinja.eosToken/label": "EOS ٹوکن",
+      "jinja.template/label": "ٹیمپلیٹ",
+      "jinja/error": "Jinja ٹیمپلیٹ پارس کرنے میں ناکامی: {{error}}",
+      "jinja/empty": "براہ کرم اوپر Jinja ٹیمپلیٹ درج کریں۔",
+      "jinja/unlikelyToWork": "جو Jinja ٹیمپلیٹ آپ نے اوپر دیا ہے وہ شاید کام نہ کرے کیونکہ یہ \"پیغامات\" متغیر کو حوالہ نہیں دیتا۔ براہ کرم دوبارہ چیک کریں کہ آپ نے درست ٹیمپلیٹ داخل کیا ہے۔",
+      "types.manual/label": "دستی",
+      "manual.subfield.beforeSystem/label": "سسٹم سے پہلے",
+      "manual.subfield.beforeSystem/placeholder": "سسٹم کا پری فکس درج کریں...",
+      "manual.subfield.afterSystem/label": "سسٹم کے بعد",
+      "manual.subfield.afterSystem/placeholder": "سسٹم کا سفیكس درج کریں...",
+      "manual.subfield.beforeUser/label": "یوزر سے پہلے",
+      "manual.subfield.beforeUser/placeholder": "یوزر کا پری فکس درج کریں...",
+      "manual.subfield.afterUser/label": "یوزر کے بعد",
+      "manual.subfield.afterUser/placeholder": "یوزر کا سفیكس درج کریں...",
+      "manual.subfield.beforeAssistant/label": "اسسٹنٹ سے پہلے",
+      "manual.subfield.beforeAssistant/placeholder": "اسسٹنٹ کا پری فکس درج کریں...",
+      "manual.subfield.afterAssistant/label": "اسسٹنٹ کے بعد",
+      "manual.subfield.afterAssistant/placeholder": "اسسٹنٹ کا سفیكس درج کریں...",
+      "stopStrings/label": "اضافی اسٹاپ سٹرنگز",
+      "stopStrings/subTitle": "ٹیمپلیٹ سے متعلق اسٹاپ سٹرنگز جو صارف کی طرف سے مخصوص اسٹاپ سٹرنگز کے علاوہ استعمال کی جائیں گی۔"
+    },
+    "contextLength": {
+      "maxValueTooltip": "یہ وہ زیادہ سے زیادہ تعداد ہے جسے ماڈل ٹوکنز کو سنبھالنے کے لیے تربیت دی گئی تھی۔ اس قیمت کو سیٹ کرنے کے لیے کلک کریں",
+      "maxValueTextStart": "ماڈل کی مدد سے زیادہ سے زیادہ",
+      "maxValueTextEnd": "ٹوکنز",
+	"tooltipHint": "جبکہ ماڈل زیادہ سے زیادہ لمبائی کو زیادہ سے زیادہ استعمال کر سکتا ہے، بڑے ٹوکن کا سائز کارکردگی کو متاثر کر سکتا ہے"}
+    "contextOverflowPolicy": {
+	"stopAtLimit": "حد پر رک جائیں"}
+	  
+	  	 
+  "stopAtLimitSub": "ماڈل کی میموری بھر جانے کے بعد جنریٹ کرنا بند کر دیں",
+  "truncateMiddle": "درمیان کو مختصر کریں",
+  "truncateMiddleSub": "گفتگو کے درمیان سے پیغامات کو ہٹا کر نئے پیغامات کے لیے جگہ بنائیں۔ ماڈل گفتگو کے آغاز کو یاد رکھے گا",
+  "rollingWindow": "رولنگ ونڈو",
+  "rollingWindowSub": "ماڈل ہمیشہ تازہ ترین چند پیغامات حاصل کرے گا لیکن گفتگو کے آغاز کو بھول سکتا ہے",
+  "llamaAccelerationOffloadRatio": {
+    "max": "زیادہ سے زیادہ",
+    "off": "بند"
+  },
+  "saveConflictResolution": {
+    "title": "وہ کون سی قیمتیں منتخب کریں جو پری سیٹ میں شامل ہوں",
+    "description": "وہ قیمتیں منتخب کریں جنہیں آپ رکھنا چاہتے ہیں",
+    "instructions": "کسی قیمت پر کلک کریں تاکہ اسے شامل کیا جا سکے",
+    "userValues": "پچھلی قیمت",
+    "presetValues": "نئی قیمت",
+    "confirm": "تصدیق کریں",
+    "cancel": "منسوخ کریں"
+  },
+  "applyConflictResolution": {
+    "title": "کون سی قیمتیں رکھنی ہیں؟",
+    "description": "آپ کے پاس ایسی تبدیلیاں ہیں جو آنے والے پری سیٹ سے متصادم ہیں",
+    "instructions": "کسی قیمت پر کلک کریں تاکہ اسے رکھا جا سکے",
+    "userValues": "موجودہ قیمت",
+    "presetValues": "آنے والی پری سیٹ قیمت",
+    "confirm": "تصدیق کریں",
+    "cancel": "منسوخ کریں"
+  },
+  "empty": "<خالی>",
+  "presets": {
+    "title": "پری سیٹ",
+    "commitChanges": "تبدیلیاں محفوظ کریں",
+    "commitChanges/description": "اپنی تبدیلیاں پری سیٹ میں محفوظ کریں۔",
+    "commitChanges.manual": "نئے فیلڈز کا پتہ چلا ہے۔ آپ کو یہ منتخب کرنے کا اختیار ہوگا کہ کون سی تبدیلیاں پری سیٹ میں شامل کی جائیں۔",
+    "commitChanges.manual.hold.0": "رکیں",
+    "commitChanges.manual.hold.1": "تاکہ آپ منتخب کر سکیں کہ کون سی تبدیلیاں پری سیٹ میں محفوظ کی جائیں۔",
+    "commitChanges.saveAll.hold.0": "رکیں",
+    "commitChanges.saveAll.hold.1": "تاکہ تمام تبدیلیاں محفوظ کی جا سکیں۔",
+    "commitChanges.saveInPreset.hold.0": "رکیں",
+    "commitChanges.saveInPreset.hold.1": "تاکہ صرف ان تبدیلیوں کو محفوظ کیا جا سکے جو پہلے سے پری سیٹ میں شامل ہیں۔",
+    "commitChanges/error": "پری سیٹ میں تبدیلیاں محفوظ کرنے میں ناکامی۔",
+    "commitChanges.manual/description": "انتخاب کریں کہ کون سی تبدیلیاں پری سیٹ میں شامل کی جائیں۔",
+    "saveAs": "نیا کے طور پر محفوظ کریں...",
+    "presetNamePlaceholder": "پری سیٹ کا نام درج کریں...",
+    "cannotCommitChangesLegacy": "یہ ایک پرانا پری سیٹ ہے اور اس میں تبدیلی نہیں کی جا سکتی۔ آپ \"نیا کے طور پر محفوظ کریں...\" کا استعمال کر کے ایک نقل بنا سکتے ہیں۔",
+    "cannotCommitChangesNoChanges": "کوئی تبدیلیاں نہیں کی جا سکیں۔",
+    "emptyNoUnsaved": "پری سیٹ منتخب کریں...",
+    "emptyWithUnsaved": "محفوظ نہ کی جانے والی پری سیٹ",
+    "saveEmptyWithUnsaved": "پری سیٹ کو محفوظ کریں...",
+    "saveConfirm": "محفوظ کریں",
+    "saveCancel": "منسوخ کریں",
+    "saving": "محفوظ کر رہے ہیں...",
+    "save/error": "پری سیٹ کو محفوظ کرنے میں ناکامی۔",
+    "deselect": "پری سیٹ کو منتخب نہ کریں",
+    "deselect/error": "پری سیٹ کو منتخب نہ کرنے میں ناکامی۔",
+    "select/error": "پری سیٹ کو منتخب کرنے میں ناکامی۔",
+    "delete/error": "پری سیٹ کو حذف کرنے میں ناکامی۔",
+    "discardChanges": "محفوظ نہ کی جانے والی تبدیلیاں ترک کریں",
+    "discardChanges/info": "تمام غیر محفوظ تبدیلیوں کو ترک کر دیں اور پری سیٹ کو اس کی اصل حالت میں بحال کر دیں",
+    "newEmptyPreset": "نیا خالی پری سیٹ تخلیق کریں...",
+    "contextMenuSelect": "پری سیٹ منتخب کریں",
+    "contextMenuDelete": "حذف کریں"
+  },
+  "flashAttentionWarning": "فلیش اٹینشن ایک تجرباتی فیچر ہے جو کچھ ماڈلز کے ساتھ مسائل پیدا کر سکتا ہے۔ اگر آپ کو مسائل پیش آئیں تو اسے غیر فعال کرنے کی کوشش کریں۔",
+  "seedUncheckedHint": "رینڈم سیڈ",
+  "ropeFrequencyBaseUncheckedHint": "آٹو",
+  "ropeFrequencyScaleUncheckedHint": "آٹو"
+}
+

@@ -1,0 +1,23 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "فائل نکالی جا رہی ہے...",
+  "finalizing": "ڈاؤن لوڈ مکمل کیا جا رہا ہے... (اس میں کچھ وقت لگ سکتا ہے)",
+  "noOptions": "ڈاؤن لوڈ کے لیے کوئی مطابقت پذیر آپشن دستیاب نہیں ہے",
+
+  "deeplink/confirmation/title": "Hugging Face 🤗 سے ماڈل ڈاؤن لوڈ کریں",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "تجویز کردہ منتخب کریں",
+  "deeplink/confirmation/selectOption": "ڈاؤن لوڈ کا آپشن منتخب کریں",
+  "deeplink/confirmation/recommendedOption": "زیادہ تر صارفین کے لیے یہ بہترین آپشن ہو سکتا ہے",
+  "deeplink/confirmation/downloadButton": "ڈاؤن لوڈ کریں",
+  "deeplink/confirmation/nevermindButton": "کوئی بات نہیں",
+  "deeplink/confirmation/modelPresent/title": "Hugging Face ماڈل مل گیا ✅",
+  "deeplink/confirmation/modelPresent/body": "اچھی خبر! یہ ماڈل فائل پہلے ہی آپ کی مقامی مشین پر دستیاب ہے۔",
+  "deeplink/confirmation/loadInChat": "{{modelName}} کو ایک نئے چیٹ میں لوڈ کریں",
+  "deeplink/error/modelNotFound/title": "افسوس، ہم اس ماڈل کو تلاش نہیں کر سکے",
+  "deeplink/error/modelNotFound/body": "ماڈل کے نام کو دوبارہ چیک کریں اور کسی دوسرے ڈاؤن لوڈ آپشن کو آزمانے پر غور کریں۔",
+  "deeplink/actions/trySearching": "Hugging Face پر {{modelName}} تلاش کرنے کی کوشش کریں",
+
+  "downloadsPanel/title": "ڈاؤن لوڈز",
+  "downloadsPanel/sectionTitle/ongoing": "جاری ہے",
+  "downloadsPanel/sectionTitle/completed": "مکمل"
+}
